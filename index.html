@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Michael O'Malley</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e6eae13164.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage">Michael O'Malley</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#specialities">SPECIALITIES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" div id="about">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <div class="wrapper">
+                    <span class="align-middle">
+                        <h2 id="about-me">About Me!</h2>
+                        <p id="abm-content">My name is Michael O'Malley and I am a full stack developer in Charlotte, NC. I come from a background in financial services, but have discovered a passion for coding.  </p>
+                    </span>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <span class="align-middle"><img src="assets/IMG_3568.jpg" id="bio-img"></span c>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light" div id="specialities">
+        <h2>My Specialities</h2>
+        <br>
+        <div class="row" id="spec-row1">
+            <div class="col-sm-3">
+                <i class="fab fa-html5 fa-5x"></i>
+                <h4>HTML</h4>
+                <!-- <p>I construct the foundation of web pages with HTML5 and implement semantic
+                    markup to improve organization and structure.</p> -->
+            </div>
+            <div class="col-sm-3">
+                <i class="fab fa-css3-alt fa-5x"></i>
+                <h4>CSS</h4>
+                <!-- <p>With CSS, Bootstrap and other frameworks, I add style and flair to web pages and applications. </p> -->
+                <p>Bootstrap</p>
+            </div>
+            <div class="col-sm-3">
+                <i class="fab fa-js-square fa-5x"></i>
+                <h4>JAVASCRIPT</h4>
+                <!-- <p> To take web applications to the next level, I use JavaScript, jQuery, Node.js, among other libraries
+                    and frameworks.</p> -->
+                <p>jQuery, Node.js</p>
+            </div>
+            <div class="col-sm-3">
+                <i class="fas fa-database fa-5x"></i>
+                <h4>DATABASES</h4>
+                <!-- <p>Utilizing back-end technologies like MySql, I implement databases to store and retrieve information
+                    for apps.
+                </p> -->
+                <p>MySql, MongoDB</p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid text-center" div id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/Password.PNG" alt="Password-Generator">
+                    <p><strong><a href="https://meo1984.github.io/password/password.html" class="dark-link">Password
+                                Generator</a></strong></p>
+                    <p>A web application built with HTML, CSS, and JavaScript. This application prompts users to
+                        specify the criteria for their password. A random password is then generated according to
+                        their specifications. <br>
+                        <a href="https://github.com/MEO1984/password" class="dark-link">Link to Code</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/Weather.PNG" alt="Weather-Dashboard">
+                    <p><a href="https://meo1984.github.io/weather/weather.html" class="dark-link"><strong>Weather
+                                Dashboard</strong></a></p>
+                    <p>A weather dashboard application with search functionality to find current weather conditions
+                        for multiple cities. Created using OpenWeather API to retrieve weather data. This
+                        applications allows users to compare weather in different cities to appropriately plan for
+                        travel.
+                        <br>
+                        <a href="https://github.com/MEO1984/weather" class="dark-link">Link to Code</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/Planner.PNG" alt="Day-Planner">
+                    <p><a href="https://meo1984.github.io/planner/planner.html" class="dark-link"><strong>Day
+                                Planner</strong></a></p>
+                    <p>A web application that allows users to schedule their work day. Utilizes jQuery and Moment JS
+                        to dynamically update HTML, color code hours based on past, present and future times. User
+                        input is saved to local storage so that schedule remains on page even after refreshing.
+                        <br>
+                        <a href="https://github.com/MEO1984/planner" class="dark-link">Link to Code</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/Project2.png" alt="Hook Events">
+                    <p><a href="https://meo1984.github.io/Project1/index.html" class="dark-link"><strong>Hook Events
+                            </strong></a></p>
+                    <p>A web application that allows you to search for events in your area by city. It allows you to choose an event, provides information about the event and also provides Google directions to the event.
+                        Powered by Materialize CSS, jQuery, TicketMaster API and GoogleMaps API.
+                        <br>
+                        <a href="https://github.com/MEO1984/Project1" class="dark-link">Link to Code</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/Burger.PNG" alt="Eat-Da_Burger">
+                    <p><a href="https://limitless-chamber-55731.herokuapp.com/"
+                            class="dark-link"><strong>Burger App</strong></a></p>
+                    <p>A burger logger created with MySql, Node, Express, Handlebars, an ORM, and follows the
+                        MVC design pattern. This application is a restaurant app that lets users input the names
+                        of burgers they'd like to eat and allows them to archive the burger name once it has been eaten.
+                        All burgers are stored in a database.
+                        <br>
+                        <a href="https://github.com/MEO1984/burger" class="dark-link">Link to Code</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/Cookin.PNG" alt="What's Cookin">
+                    <p><a href="https://project2bc.herokuapp.com/"
+                            class="dark-link"><strong>What's Cookin</strong></a></p>
+                    <p>A shopping list app that pulls recipes off Spoonacular, and then compares ingredients needed against what is in the fridge. If item is missing, adds to shopping list.  Built with Spoonacular API, Node.js, Express.js,
+                        Handebars.js, Materialize CSS, MySQL and Sequelize.
+                        <br>
+                        <a href="https://github.com/adamwenger44/project2.github.io" class="dark-link">Link to Code</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+</div>
+
+<div class="container-fluid bg-light" div id="contact">
+    <h2 class="text-center">Get In Touch</h2>
+    <div class="row">
+        <div class="col-sm-12">
+            <p><span class="glyphicon glyphicon-map-marker"></span> Charlotte, NC</p>
+            <p><span class="glyphicon glyphicon-phone"></span> (704) 759-4480</p>
+            <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:MEO1984@gmail.com"
+                    class="light-link"> MEO1984@gmail.com</a> </p>
+            <!-- <p><i class="fas fa-file"></i> <a href="need resume" class="light-link"> -->
+                    View My
+                    Resume</a>
+                <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/michael-o-malley-aa344158"
+                        class="light-link"> Find
+                        Me
+                        On LinkedIn</a></p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/MEO1984" class="light-link">
+                        Find
+                        Me On GitHub</a></p>
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="container-fluid text-center">
+    <p>Copyright 2019</p>
+    <br>
+    <a href="https://github.com/MEO1984" class="light-link"><i class="fab fa-github fa-2x"></a></i>
+    <a href="https://www.linkedin.com/in/michael-o-malley-aa344158" class="light-link"><i class="fab fa-linkedin fa-2x"></i>
+
+        <br>
+        <a href="#myPage" title="To Top" class="light-link">
+            <span>Back To Top</span>
+        </a>
+</footer>
+
+<script src="portfolioScript.js"></script>
+</body>
+
+
+
+
+
+
+
+</html>
